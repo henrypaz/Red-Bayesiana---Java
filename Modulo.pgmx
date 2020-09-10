@@ -1,0 +1,887 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProbModelXML formatVersion="0.2.0">
+  <ProbNet type="BayesianNetwork">
+    <Variables>
+      <Variable name="Pase_Modulo" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="712" y="357" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+          <Property name="NodeType" value="chance" />
+          <Property name="NodeStates[0]" value="no" />
+          <Property name="TypeOfVariable" value="finiteStates" />
+          <Property name="NodeStates[1]" value="si" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="no" />
+          <State name="si" />
+        </States>
+      </Variable>
+      <Variable name="Inteligencia_Artificial" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="972" y="362" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+          <Property name="NodeType" value="chance" />
+          <Property name="NodeStates[0]" value="no" />
+          <Property name="TypeOfVariable" value="finiteStates" />
+          <Property name="NodeStates[1]" value="si" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="no" />
+          <State name="si" />
+        </States>
+      </Variable>
+      <Variable name="Simulacion" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="445" y="405" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+          <Property name="NodeType" value="chance" />
+          <Property name="NodeStates[0]" value="no" />
+          <Property name="TypeOfVariable" value="finiteStates" />
+          <Property name="NodeStates[1]" value="si" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="no" />
+          <State name="si" />
+        </States>
+      </Variable>
+      <Variable name="Sistemas_Expertos" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="401" y="225" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+          <Property name="NodeType" value="chance" />
+          <Property name="NodeStates[0]" value="no" />
+          <Property name="TypeOfVariable" value="finiteStates" />
+          <Property name="NodeStates[1]" value="si" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="no" />
+          <State name="si" />
+        </States>
+      </Variable>
+      <Variable name="Anteproyectos" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="947" y="245" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+          <Property name="NodeType" value="chance" />
+          <Property name="NodeStates[0]" value="no" />
+          <Property name="TypeOfVariable" value="finiteStates" />
+          <Property name="NodeStates[1]" value="si" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="no" />
+          <State name="si" />
+        </States>
+      </Variable>
+      <Variable name="Control_Automatizado" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="727" y="495" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+          <Property name="NodeType" value="chance" />
+          <Property name="NodeStates[0]" value="no" />
+          <Property name="TypeOfVariable" value="finiteStates" />
+          <Property name="NodeStates[1]" value="si" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="no" />
+          <State name="si" />
+        </States>
+      </Variable>
+      <Variable name="Etica" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="713" y="193" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+          <Property name="NodeType" value="chance" />
+          <Property name="NodeStates[0]" value="no" />
+          <Property name="TypeOfVariable" value="finiteStates" />
+          <Property name="NodeStates[1]" value="si" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="no" />
+          <State name="si" />
+        </States>
+      </Variable>
+      <Variable name="Examenes_se" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="136" y="133" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+          <Property name="NodeType" value="chance" />
+          <Property name="NodeStates[0]" value="bajo" />
+          <Property name="TypeOfVariable" value="finiteStates" />
+          <Property name="NodeStates[1]" value="medio" />
+          <Property name="NodeStates[2]" value="alto" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="bajo" />
+          <State name="medio" />
+          <State name="alto" />
+        </States>
+      </Variable>
+      <Variable name="Deberes_se" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="167" y="179" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+          <Property name="NodeType" value="chance" />
+          <Property name="NodeStates[0]" value="bajo" />
+          <Property name="TypeOfVariable" value="finiteStates" />
+          <Property name="NodeStates[1]" value="medio" />
+          <Property name="NodeStates[2]" value="alto" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="bajo" />
+          <State name="medio" />
+          <State name="alto" />
+        </States>
+      </Variable>
+      <Variable name="Laboratorio_ia" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="1370" y="104" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+          <Property name="NodeType" value="chance" />
+          <Property name="NodeStates[0]" value="bajo" />
+          <Property name="TypeOfVariable" value="finiteStates" />
+          <Property name="NodeStates[1]" value="medio" />
+          <Property name="NodeStates[2]" value="alto" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="bajo" />
+          <State name="medio" />
+          <State name="alto" />
+        </States>
+      </Variable>
+      <Variable name="Trabajos_Grupales_se" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="181" y="66" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+          <Property name="NodeType" value="chance" />
+          <Property name="NodeStates[0]" value="bajo" />
+          <Property name="TypeOfVariable" value="finiteStates" />
+          <Property name="NodeStates[1]" value="medio" />
+          <Property name="NodeStates[2]" value="alto" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="bajo" />
+          <State name="medio" />
+          <State name="alto" />
+        </States>
+      </Variable>
+      <Variable name="Avances" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="1175" y="39" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+          <Property name="NodeType" value="chance" />
+          <Property name="NodeStates[0]" value="bajo" />
+          <Property name="TypeOfVariable" value="finiteStates" />
+          <Property name="NodeStates[1]" value="medio" />
+          <Property name="NodeStates[2]" value="alto" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="bajo" />
+          <State name="medio" />
+          <State name="alto" />
+        </States>
+      </Variable>
+      <Variable name="Participacion_Clase_se" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="296" y="22" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+          <Property name="NodeType" value="chance" />
+          <Property name="NodeStates[0]" value="bajo" />
+          <Property name="TypeOfVariable" value="finiteStates" />
+          <Property name="NodeStates[1]" value="medio" />
+          <Property name="NodeStates[2]" value="alto" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="bajo" />
+          <State name="medio" />
+          <State name="alto" />
+        </States>
+      </Variable>
+      <Variable name="Trabajos_grupales_sim" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="103" y="262" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+          <Property name="NodeType" value="chance" />
+          <Property name="NodeStates[0]" value="bajo" />
+          <Property name="TypeOfVariable" value="finiteStates" />
+          <Property name="NodeStates[1]" value="medio" />
+          <Property name="NodeStates[2]" value="alto" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="bajo" />
+          <State name="medio" />
+          <State name="alto" />
+        </States>
+      </Variable>
+      <Variable name="Examenes_simu" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="92" y="336" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+          <Property name="NodeType" value="chance" />
+          <Property name="NodeStates[0]" value="bajo" />
+          <Property name="TypeOfVariable" value="finiteStates" />
+          <Property name="NodeStates[1]" value="medio" />
+          <Property name="NodeStates[2]" value="alto" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="bajo" />
+          <State name="medio" />
+          <State name="alto" />
+        </States>
+      </Variable>
+      <Variable name="Deberes_etica" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="565" y="39" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+          <Property name="NodeType" value="chance" />
+          <Property name="NodeStates[0]" value="bajo" />
+          <Property name="TypeOfVariable" value="finiteStates" />
+          <Property name="NodeStates[1]" value="medio" />
+          <Property name="NodeStates[2]" value="alto" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="bajo" />
+          <State name="medio" />
+          <State name="alto" />
+        </States>
+      </Variable>
+      <Variable name="Trabajos_grupales" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="1357" y="181" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+          <Property name="NodeType" value="chance" />
+          <Property name="NodeStates[0]" value="bajo" />
+          <Property name="TypeOfVariable" value="finiteStates" />
+          <Property name="NodeStates[1]" value="medio" />
+          <Property name="NodeStates[2]" value="alto" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="bajo" />
+          <State name="medio" />
+          <State name="alto" />
+        </States>
+      </Variable>
+      <Variable name="Examenes_ia" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="1361" y="431" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+          <Property name="NodeType" value="chance" />
+          <Property name="NodeStates[0]" value="bajo" />
+          <Property name="TypeOfVariable" value="finiteStates" />
+          <Property name="NodeStates[1]" value="medio" />
+          <Property name="NodeStates[2]" value="alto" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="bajo" />
+          <State name="medio" />
+          <State name="alto" />
+        </States>
+      </Variable>
+      <Variable name="Deberes_ia" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="1366" y="349" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+          <Property name="NodeType" value="chance" />
+          <Property name="NodeStates[0]" value="bajo" />
+          <Property name="TypeOfVariable" value="finiteStates" />
+          <Property name="NodeStates[1]" value="medio" />
+          <Property name="NodeStates[2]" value="alto" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="bajo" />
+          <State name="medio" />
+          <State name="alto" />
+        </States>
+      </Variable>
+      <Variable name="Lecciones_ia" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="1355" y="266" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+          <Property name="NodeType" value="chance" />
+          <Property name="NodeStates[0]" value="bajo" />
+          <Property name="TypeOfVariable" value="finiteStates" />
+          <Property name="NodeStates[1]" value="medio" />
+          <Property name="NodeStates[2]" value="alto" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="bajo" />
+          <State name="medio" />
+          <State name="alto" />
+        </States>
+      </Variable>
+      <Variable name="Examenes_simulacion" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="91" y="-115" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+          <Property name="NodeType" value="chance" />
+          <Property name="NodeStates[0]" value="ausente" />
+          <Property name="TypeOfVariable" value="finiteStates" />
+          <Property name="NodeStates[1]" value="presente" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="ausente" />
+          <State name="presente" />
+        </States>
+      </Variable>
+      <Variable name="Participacion_Clase_sim" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="103" y="425" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+          <Property name="NodeType" value="chance" />
+          <Property name="NodeStates[0]" value="bajo" />
+          <Property name="TypeOfVariable" value="finiteStates" />
+          <Property name="NodeStates[1]" value="medio" />
+          <Property name="NodeStates[2]" value="alto" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="bajo" />
+          <State name="medio" />
+          <State name="alto" />
+        </States>
+      </Variable>
+      <Variable name="Trabajos_Grupales_ca" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="558" y="641" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+          <Property name="NodeType" value="chance" />
+          <Property name="NodeStates[0]" value="bajo" />
+          <Property name="TypeOfVariable" value="finiteStates" />
+          <Property name="NodeStates[1]" value="medio" />
+          <Property name="NodeStates[2]" value="alto" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="bajo" />
+          <State name="medio" />
+          <State name="alto" />
+        </States>
+      </Variable>
+      <Variable name="Examenes_ca" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="789" y="654" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+          <Property name="NodeType" value="chance" />
+          <Property name="NodeStates[0]" value="bajo" />
+          <Property name="TypeOfVariable" value="finiteStates" />
+          <Property name="NodeStates[1]" value="medio" />
+          <Property name="NodeStates[2]" value="alto" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="bajo" />
+          <State name="medio" />
+          <State name="alto" />
+        </States>
+      </Variable>
+      <Variable name="Deberes_ca" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="1024" y="666" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+          <Property name="NodeType" value="chance" />
+          <Property name="NodeStates[0]" value="bajo" />
+          <Property name="TypeOfVariable" value="finiteStates" />
+          <Property name="NodeStates[1]" value="medio" />
+          <Property name="NodeStates[2]" value="alto" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="bajo" />
+          <State name="medio" />
+          <State name="alto" />
+        </States>
+      </Variable>
+      <Variable name="Deberes_sim" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="160" y="520" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+          <Property name="NodeType" value="chance" />
+          <Property name="NodeStates[0]" value="bajo" />
+          <Property name="TypeOfVariable" value="finiteStates" />
+          <Property name="NodeStates[1]" value="medio" />
+          <Property name="NodeStates[2]" value="alto" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="bajo" />
+          <State name="medio" />
+          <State name="alto" />
+        </States>
+      </Variable>
+      <Variable name="ASISTENCIAS" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="1281" y="600" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+          <Property name="NodeType" value="chance" />
+          <Property name="NodeStates[0]" value="no" />
+          <Property name="TypeOfVariable" value="finiteStates" />
+          <Property name="NodeStates[1]" value="si" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="no" />
+          <State name="si" />
+        </States>
+      </Variable>
+      <Variable name="Trabajos_Grupales_etica" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="758" y="46" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+          <Property name="NodeType" value="chance" />
+          <Property name="NodeStates[0]" value="bajo" />
+          <Property name="TypeOfVariable" value="finiteStates" />
+          <Property name="NodeStates[1]" value="medio" />
+          <Property name="NodeStates[2]" value="alto" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="bajo" />
+          <State name="medio" />
+          <State name="alto" />
+        </States>
+      </Variable>
+      <Variable name="Participacion_clase_etica" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="967" y="45" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+          <Property name="NodeType" value="chance" />
+          <Property name="NodeStates[0]" value="bajo" />
+          <Property name="TypeOfVariable" value="finiteStates" />
+          <Property name="NodeStates[1]" value="medio" />
+          <Property name="NodeStates[2]" value="alto" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="bajo" />
+          <State name="medio" />
+          <State name="alto" />
+        </States>
+      </Variable>
+      <Variable name="Participacion_Clase_ca" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="342" y="645" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+          <Property name="NodeType" value="chance" />
+          <Property name="NodeStates[0]" value="bajo" />
+          <Property name="TypeOfVariable" value="finiteStates" />
+          <Property name="NodeStates[1]" value="medio" />
+          <Property name="NodeStates[2]" value="alto" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="bajo" />
+          <State name="medio" />
+          <State name="alto" />
+        </States>
+      </Variable>
+      <Variable name="Examenes_etica" type="finiteStates" role="chance" isInput="false">
+        <Coordinates x="502" y="118" />
+        <AdditionalProperties>
+          <Property name="Relevance" value="7.0" />
+          <Property name="NodeType" value="chance" />
+          <Property name="NodeStates[0]" value="bajo" />
+          <Property name="TypeOfVariable" value="finiteStates" />
+          <Property name="NodeStates[1]" value="medio" />
+          <Property name="NodeStates[2]" value="alto" />
+        </AdditionalProperties>
+        <Unit />
+        <Precision>0.01</Precision>
+        <States>
+          <State name="bajo" />
+          <State name="medio" />
+          <State name="alto" />
+        </States>
+      </Variable>
+    </Variables>
+    <Links>
+      <Link directed="true">
+        <Variable name="Inteligencia_Artificial" />
+        <Variable name="Pase_Modulo" />
+      </Link>
+      <Link directed="true">
+        <Variable name="Simulacion" />
+        <Variable name="Pase_Modulo" />
+      </Link>
+      <Link directed="true">
+        <Variable name="Sistemas_Expertos" />
+        <Variable name="Pase_Modulo" />
+      </Link>
+      <Link directed="true">
+        <Variable name="Anteproyectos" />
+        <Variable name="Pase_Modulo" />
+      </Link>
+      <Link directed="true">
+        <Variable name="Control_Automatizado" />
+        <Variable name="Pase_Modulo" />
+      </Link>
+      <Link directed="true">
+        <Variable name="Etica" />
+        <Variable name="Pase_Modulo" />
+      </Link>
+      <Link directed="true">
+        <Variable name="Examenes_se" />
+        <Variable name="Sistemas_Expertos" />
+      </Link>
+      <Link directed="true">
+        <Variable name="Deberes_se" />
+        <Variable name="Sistemas_Expertos" />
+      </Link>
+      <Link directed="true">
+        <Variable name="Laboratorio_ia" />
+        <Variable name="Inteligencia_Artificial" />
+      </Link>
+      <Link directed="true">
+        <Variable name="Trabajos_Grupales_se" />
+        <Variable name="Sistemas_Expertos" />
+      </Link>
+      <Link directed="true">
+        <Variable name="Avances" />
+        <Variable name="Anteproyectos" />
+      </Link>
+      <Link directed="true">
+        <Variable name="Participacion_Clase_se" />
+        <Variable name="Sistemas_Expertos" />
+      </Link>
+      <Link directed="true">
+        <Variable name="Trabajos_grupales_sim" />
+        <Variable name="Simulacion" />
+      </Link>
+      <Link directed="true">
+        <Variable name="Examenes_simu" />
+        <Variable name="Simulacion" />
+      </Link>
+      <Link directed="true">
+        <Variable name="Deberes_etica" />
+        <Variable name="Etica" />
+      </Link>
+      <Link directed="true">
+        <Variable name="Trabajos_grupales" />
+        <Variable name="Inteligencia_Artificial" />
+      </Link>
+      <Link directed="true">
+        <Variable name="Examenes_ia" />
+        <Variable name="Inteligencia_Artificial" />
+      </Link>
+      <Link directed="true">
+        <Variable name="Deberes_ia" />
+        <Variable name="Inteligencia_Artificial" />
+      </Link>
+      <Link directed="true">
+        <Variable name="Lecciones_ia" />
+        <Variable name="Inteligencia_Artificial" />
+      </Link>
+      <Link directed="true">
+        <Variable name="Participacion_Clase_sim" />
+        <Variable name="Simulacion" />
+      </Link>
+      <Link directed="true">
+        <Variable name="Trabajos_Grupales_ca" />
+        <Variable name="Control_Automatizado" />
+      </Link>
+      <Link directed="true">
+        <Variable name="Examenes_ca" />
+        <Variable name="Control_Automatizado" />
+      </Link>
+      <Link directed="true">
+        <Variable name="Deberes_ca" />
+        <Variable name="Control_Automatizado" />
+      </Link>
+      <Link directed="true">
+        <Variable name="Deberes_sim" />
+        <Variable name="Simulacion" />
+      </Link>
+      <Link directed="true">
+        <Variable name="ASISTENCIAS" />
+        <Variable name="Pase_Modulo" />
+      </Link>
+      <Link directed="true">
+        <Variable name="Trabajos_Grupales_etica" />
+        <Variable name="Etica" />
+      </Link>
+      <Link directed="true">
+        <Variable name="Participacion_clase_etica" />
+        <Variable name="Etica" />
+      </Link>
+      <Link directed="true">
+        <Variable name="Participacion_Clase_ca" />
+        <Variable name="Control_Automatizado" />
+      </Link>
+      <Link directed="true">
+        <Variable name="Examenes_etica" />
+        <Variable name="Etica" />
+      </Link>
+    </Links>
+    <Potentials>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="Pase_Modulo" />
+          <Variable name="Control_Automatizado" />
+          <Variable name="ASISTENCIAS" />
+          <Variable name="Anteproyectos" />
+          <Variable name="Etica" />
+          <Variable name="Inteligencia_Artificial" />
+          <Variable name="Simulacion" />
+          <Variable name="Sistemas_Expertos" />
+        </Variables>
+        <Values>1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 1.0 0.0 0.0 1.0</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="Inteligencia_Artificial" />
+          <Variable name="Examenes_ia" />
+          <Variable name="Laboratorio_ia" />
+          <Variable name="Lecciones_ia" />
+          <Variable name="Deberes_ia" />
+          <Variable name="Trabajos_grupales" />
+        </Variables>
+        <Values>0.8909 0.1091 0.6409 0.3591 0.2909 0.7091 0.7815 0.2185 0.5315 0.4685 0.1815 0.8185 0.669 0.331 0.419 0.581 0.069 0.931 0.8804 0.1196 0.6304 0.3696 0.2804 0.7196 0.771 0.229 0.521 0.479 0.171 0.829 0.6585 0.3415 0.4085 0.5915 0.0585 0.9415 0.8679 0.1321 0.6179 0.3821 0.2679 0.7321 0.7585 0.2415 0.5085 0.4915 0.1585 0.8415 0.646 0.354 0.396 0.604 0.046 0.954 0.8804 0.1196 0.6304 0.3696 0.2804 0.7196 0.771 0.229 0.521 0.479 0.171 0.829 0.6585 0.3415 0.4085 0.5915 0.0585 0.9415 0.8699 0.1301 0.6199 0.3801 0.2699 0.7301 0.7605 0.2395 0.5105 0.4895 0.1605 0.8395 0.648 0.352 0.498 0.502 0.048 0.952 0.8574 0.1426 0.6074 0.3926 0.2574 0.7426 0.748 0.252 0.498 0.502 0.148 0.852 0.6355 0.3645 0.3855 0.6145 0.0355 0.9645 0.8679 0.1321 0.6179 0.3821 0.2679 0.7321 0.7585 0.2415 0.5085 0.4915 0.1585 0.8415 0.646 0.354 0.396 0.604 0.046 0.954 0.8574 0.1426 0.6074 0.3926 0.2574 0.7426 0.748 0.252 0.498 0.502 0.148 0.852 0.6355 0.3645 0.3855 0.6145 0.0355 0.9645 0.8449 0.1551 0.5949 0.4051 0.2449 0.7551 0.7355 0.2645 0.4855 0.5145 0.1355 0.8645 0.623 0.377 0.373 0.627 0.023 0.977 0.8804 0.1196 0.6124 0.3876 0.2804 0.7196 0.771 0.229 0.521 0.479 0.171 0.829 0.6585 0.3415 0.4085 0.5915 0.0585 0.9415 0.8699 0.1301 0.6199 0.3801 0.2699 0.7301 0.7605 0.2395 0.5105 0.4895 0.1605 0.8395 0.648 0.352 0.398 0.602 0.048 0.952 0.8574 0.1426 0.6074 0.3926 0.2574 0.7426 0.748 0.252 0.498 0.502 0.148 0.852 0.6355 0.3645 0.3855 0.6145 0.0355 0.9645 0.8699 0.1301 0.6199 0.3801 0.2699 0.7301 0.7605 0.2395 0.5105 0.4895 0.1605 0.8395 0.648 0.352 0.398 0.602 0.048 0.952 0.8594 0.1406 0.6094 0.3906 0.2594 0.7406 0.75 0.25 0.5 0.5 0.15 0.85 0.6375 0.3625 0.3875 0.6125 0.0375 0.9625 0.8469 0.1531 0.5969 0.4031 0.2469 0.7531 0.7375 0.2625 0.4875 0.5125 0.1375 0.8625 0.625 0.375 0.375 0.625 0.025 0.975 0.8574 0.1426 0.6074 0.3926 0.2574 0.7426 0.748 0.252 0.498 0.502 0.148 0.852 0.6355 0.3645 0.3855 0.6145 0.0355 0.9645 0.8469 0.1531 0.5969 0.4031 0.2469 0.7531 0.7375 0.2625 0.4875 0.5125 0.1375 0.8625 0.625 0.375 0.375 0.625 0.025 0.975 0.8344 0.1656 0.5844 0.4156 0.2344 0.7656 0.725 0.275 0.475 0.525 0.125 0.875 0.6125 0.3875 0.3375 0.6625 0.0125 0.9875 0.8679 0.1321 0.6179 0.3821 0.2679 0.7321 0.7585 0.2415 0.5085 0.4915 0.1585 0.8415 0.646 0.354 0.396 0.604 0.046 0.954 0.8574 0.1426 0.6074 0.3926 0.2574 0.7426 0.748 0.252 0.498 0.502 0.148 0.852 0.6355 0.3645 0.3855 0.6145 0.0355 0.9645 0.8449 0.1551 0.5949 0.4051 0.2449 0.7551 0.7355 0.2645 0.4855 0.5145 0.1355 0.8645 0.623 0.377 0.373 0.627 0.023 0.977 0.8574 0.1426 0.6074 0.3926 0.2574 0.7426 0.748 0.252 0.498 0.502 0.148 0.852 0.6355 0.3645 0.3855 0.6145 0.0355 0.9645 0.8469 0.1531 0.5969 0.4031 0.2469 0.7531 0.7375 0.2625 0.4875 0.5125 0.1375 0.8625 0.625 0.375 0.375 0.625 0.025 0.975 0.8344 0.1656 0.5844 0.4156 0.2344 0.7656 0.725 0.275 0.475 0.525 0.125 0.875 0.6125 0.3875 0.3625 0.6375 0.0125 0.9875 0.8449 0.1551 0.5949 0.4051 0.2449 0.7551 0.7355 0.2645 0.4855 0.5145 0.1355 0.8645 0.623 0.377 0.373 0.627 0.023 0.977 0.8344 0.1656 0.5844 0.4156 0.2346 0.7654 0.725 0.275 0.475 0.525 0.125 0.875 0.6125 0.3875 0.3625 0.6375 0.0125 0.9875 0.8219 0.1781 0.5719 0.4281 0.2219 0.7781 0.7125 0.2875 0.4625 0.5375 0.1125 0.8875 0.6 0.4 0.35 0.65 0.0 1.0</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="Simulacion" />
+          <Variable name="Examenes_simu" />
+          <Variable name="Deberes_sim" />
+          <Variable name="Participacion_Clase_sim" />
+          <Variable name="Trabajos_grupales_sim" />
+        </Variables>
+        <Values>0.8925 0.1075 0.6425 0.3575 0.2925 0.7075 0.845 0.155 0.595 0.405 0.245 0.755 0.795 0.205 0.545 0.455 0.195 0.805 0.845 0.155 0.595 0.405 0.245 0.755 0.7975 0.2025 0.5475 0.4525 0.1975 0.8025 0.7475 0.2525 0.4975 0.5025 0.1475 0.8525 0.795 0.205 0.645 0.355 0.195 0.805 0.7475 0.2525 0.4975 0.5025 0.1475 0.8525 0.6975 0.3025 0.4475 0.5525 0.0975 0.9025 0.845 0.155 0.595 0.405 0.245 0.755 0.7975 0.2025 0.5475 0.4525 0.1975 0.8025 0.7475 0.2525 0.4975 0.5025 0.1475 0.8525 0.7975 0.2025 0.5475 0.4525 0.1975 0.8025 0.75 0.25 0.5 0.5 0.15 0.85 0.7 0.3 0.45 0.55 0.1 0.9 0.7475 0.2525 0.4975 0.5025 0.1475 0.8525 0.7 0.3 0.45 0.55 0.1 0.9 0.65 0.35 0.4 0.6 0.05 0.95 0.795 0.205 0.545 0.455 0.195 0.805 0.7475 0.2525 0.4975 0.5025 0.245 0.755 0.6975 0.3025 0.44475 0.55525 0.0975 0.9025 0.7475 0.2525 0.4975 0.5025 0.1475 0.8525 0.7 0.3 0.45 0.55 0.1 0.9 0.65 0.35 0.4 0.6 0.05 0.95 0.6975 0.3025 0.4475 0.5525 0.0975 0.9025 0.65 0.35 0.4 0.6 0.05 0.95 0.6 0.4 0.35 0.65 0.0 1.0</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="Sistemas_Expertos" />
+          <Variable name="Examenes_se" />
+          <Variable name="Deberes_se" />
+          <Variable name="Participacion_Clase_se" />
+          <Variable name="Trabajos_Grupales_se" />
+        </Variables>
+        <Values>0.8925 0.1075 0.6425 0.3575 0.2925 0.7075 0.845 0.155 0.595 0.405 0.245 0.755 0.795 0.205 0.545 0.455 0.195 0.805 0.845 0.155 0.595 0.405 0.245 0.755 0.7975 0.2025 0.5475 0.4525 0.1975 0.8025 0.7475 0.2525 0.4975 0.5025 0.1475 0.8525 0.795 0.205 0.645 0.355 0.195 0.805 0.7475 0.2525 0.4975 0.5025 0.1475 0.8525 0.6975 0.3025 0.4475 0.5525 0.0975 0.9025 0.845 0.155 0.595 0.405 0.245 0.755 0.7975 0.2025 0.5475 0.4525 0.1975 0.8025 0.7475 0.2525 0.4975 0.5025 0.1475 0.8525 0.7975 0.2025 0.5475 0.4525 0.1975 0.8025 0.75 0.25 0.5 0.5 0.15 0.85 0.7 0.3 0.45 0.55 0.1 0.9 0.7475 0.2525 0.4975 0.5025 0.1475 0.8525 0.7 0.3 0.45 0.55 0.1 0.9 0.65 0.35 0.4 0.6 0.05 0.95 0.795 0.205 0.545 0.455 0.195 0.805 0.7475 0.2525 0.4975 0.5025 0.245 0.755 0.6975 0.3025 0.4475 0.5525 0.0975 0.9025 0.7475 0.2525 0.4975 0.5025 0.1475 0.8525 0.7 0.3 0.45 0.55 0.1 0.9 0.65 0.35 0.4 0.6 0.05 0.95 0.6975 0.3025 0.4475 0.5525 0.0975 0.9025 0.65 0.35 0.4 0.6 0.05 0.95 0.6 0.4 0.35 0.65 0.0 1.0</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="Anteproyectos" />
+          <Variable name="Avances" />
+        </Variables>
+        <Values>1.0 0.0 0.5 0.5 0.0 1.0</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="Control_Automatizado" />
+          <Variable name="Examenes_ca" />
+          <Variable name="Deberes_ca" />
+          <Variable name="Participacion_Clase_ca" />
+          <Variable name="Trabajos_Grupales_ca" />
+        </Variables>
+        <Values>0.8925 0.1075 0.6425 0.3575 0.2925 0.7075 0.845 0.155 0.595 0.405 0.245 0.755 0.795 0.205 0.545 0.455 0.195 0.805 0.845 0.155 0.595 0.405 0.245 0.755 0.7975 0.2025 0.5475 0.4525 0.1975 0.8025 0.7475 0.2525 0.4975 0.5025 0.1475 0.8525 0.795 0.205 0.645 0.355 0.195 0.805 0.7475 0.2525 0.4975 0.5025 0.1475 0.8525 0.6975 0.3025 0.4475 0.5525 0.0975 0.9025 0.845 0.155 0.595 0.405 0.245 0.755 0.7975 0.2025 0.5475 0.4525 0.1975 0.8025 0.7475 0.2525 0.4975 0.5025 0.1475 0.8525 0.7975 0.2025 0.5475 0.4525 0.1975 0.8025 0.75 0.25 0.5 0.5 0.15 0.85 0.7 0.3 0.45 0.55 0.1 0.9 0.7475 0.2525 0.4975 0.5025 0.1475 0.8525 0.7 0.3 0.45 0.55 0.1 0.9 0.65 0.35 0.4 0.6 0.05 0.95 0.795 0.205 0.545 0.455 0.195 0.805 0.7475 0.2525 0.4975 0.5025 0.245 0.755 0.6975 0.3025 0.4475 0.5525 0.0975 0.9025 0.7475 0.2525 0.4975 0.5025 0.1475 0.8525 0.7 0.3 0.45 0.55 0.1 0.9 0.65 0.35 0.4 0.6 0.05 0.95 0.6975 0.3025 0.4475 0.5525 0.0975 0.9025 0.65 0.35 0.4 0.6 0.05 0.95 0.6 0.4 0.35 0.65 0.0 1.0</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="Etica" />
+          <Variable name="Examenes_etica" />
+          <Variable name="Deberes_etica" />
+          <Variable name="Participacion_clase_etica" />
+          <Variable name="Trabajos_Grupales_etica" />
+        </Variables>
+        <Values>0.8925 0.1075 0.6425 0.3575 0.2925 0.7075 0.845 0.155 0.595 0.405 0.245 0.755 0.795 0.205 0.545 0.455 0.195 0.805 0.845 0.155 0.595 0.405 0.245 0.755 0.7975 0.2025 0.5475 0.4525 0.1975 0.8025 0.7475 0.2525 0.4975 0.5025 0.1475 0.8525 0.795 0.205 0.645 0.355 0.195 0.805 0.7475 0.2525 0.4975 0.5025 0.1475 0.8525 0.6975 0.3025 0.4475 0.5525 0.0975 0.9025 0.845 0.155 0.595 0.405 0.245 0.755 0.7975 0.2025 0.5475 0.4525 0.1975 0.8025 0.7475 0.2525 0.4975 0.5025 0.1475 0.8525 0.7975 0.2025 0.5475 0.4525 0.1975 0.8025 0.75 0.25 0.5 0.5 0.15 0.85 0.7 0.3 0.45 0.55 0.1 0.9 0.7475 0.2525 0.4975 0.5025 0.1475 0.8525 0.7 0.3 0.45 0.55 0.1 0.9 0.65 0.35 0.4 0.6 0.05 0.95 0.795 0.205 0.545 0.455 0.195 0.805 0.7475 0.2525 0.4975 0.5025 0.245 0.755 0.6975 0.3025 0.4475 0.5525 0.0915 0.9085 0.7475 0.2525 0.4975 0.5025 0.1475 0.8525 0.7 0.3 0.445 0.555 0.1 0.9 0.65 0.35 0.4 0.6 0.05 0.95 0.6975 0.3025 0.4475 0.5525 0.0975 0.9025 0.65 0.35 0.4 0.6 0.05 0.95 0.6 0.4 0.35 0.65 0.0 1.0</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="Examenes_se" />
+        </Variables>
+        <Values>0.1 0.3 0.6</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="Deberes_se" />
+        </Variables>
+        <Values>0.1 0.3 0.6</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="Laboratorio_ia" />
+        </Variables>
+        <Values>0.1 0.3 0.6</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="Trabajos_Grupales_se" />
+        </Variables>
+        <Values>0.1 0.3 0.6</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="Avances" />
+        </Variables>
+        <Values>0.1 0.3 0.6</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="Participacion_Clase_se" />
+        </Variables>
+        <Values>0.1 0.3 0.6</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="Trabajos_grupales_sim" />
+        </Variables>
+        <Values>0.1 0.3 0.6</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="Examenes_simu" />
+        </Variables>
+        <Values>0.1 0.3 0.6</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="Deberes_etica" />
+        </Variables>
+        <Values>0.1 0.3 0.6</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="Trabajos_grupales" />
+        </Variables>
+        <Values>0.1 0.3 0.6</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="Examenes_ia" />
+        </Variables>
+        <Values>0.1 0.3 0.6</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="Deberes_ia" />
+        </Variables>
+        <Values>0.1 0.3 0.6</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="Lecciones_ia" />
+        </Variables>
+        <Values>0.1 0.3 0.6</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="Examenes_simulacion" />
+        </Variables>
+        <Values>0.5 0.5</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="Participacion_Clase_sim" />
+        </Variables>
+        <Values>0.1 0.3 0.6</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="Trabajos_Grupales_ca" />
+        </Variables>
+        <Values>0.1 0.3 0.6</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="Examenes_ca" />
+        </Variables>
+        <Values>0.1 0.3 0.6</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="Deberes_ca" />
+        </Variables>
+        <Values>0.1 0.3 0.6</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="Deberes_sim" />
+        </Variables>
+        <Values>0.1 0.3 0.6</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="ASISTENCIAS" />
+        </Variables>
+        <Values>0.2 0.8</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="Trabajos_Grupales_etica" />
+        </Variables>
+        <Values>0.1 0.3 0.6</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="Participacion_clase_etica" />
+        </Variables>
+        <Values>0.1 0.3 0.6</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="Participacion_Clase_ca" />
+        </Variables>
+        <Values>0.1 0.3 0.6</Values>
+      </Potential>
+      <Potential type="Table" role="conditionalProbability">
+        <Variables>
+          <Variable name="Examenes_etica" />
+        </Variables>
+        <Values>0.1 0.3 0.6</Values>
+      </Potential>
+    </Potentials>
+    <AdditionalProperties>
+      <Property name="Version" value="1.0" />
+      <Property name="KindOfGraph" value="directed" />
+      <Property name="VisualPrecision" value="0.0" />
+    </AdditionalProperties>
+  </ProbNet>
+</ProbModelXML>
